@@ -1,0 +1,208 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*____________________________________________________________________________________*/
+
+section,
+aside,
+ {
+    margin: 100px 0 24px 0;
+}
+section {
+    float: left;
+    width: 55.1%;
+    padding: 0;
+    margin: 100px 0 24px 0;
+}
+aside {
+  float: right;
+  width: 30%;
+     margin: 100px 0 24px 0;
+}
+.footer {
+    clear: both;
+    background-color: #d9d9d9;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 0;
+}
+.header{
+    margin: 0 70px 0 70px;   
+    height: 150px;
+}
+.logo{
+    float: left; 
+    margin-top: 60px;
+}
+.navigation{
+    float: right;
+    display: inline-block;
+    margin-top: 67px;   
+}
+.navigation ul{
+    margin: 0;
+}
+.navigation li {
+  display: inline-block;
+  margin-left:  120px;
+  vertical-align: top;
+}
+.navigation li a{
+    font-size: 14px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.main{
+    margin: 13px 70px 0 70px;  
+}
+.image-in-selection{
+    margin-bottom: 50px;
+}
+.text{
+    font-family:'Playfair Display', serif;
+}
+.text h5{
+    color: #b4ad9e;
+    font: 300 14px 'Ubuntu';
+    text-transform: uppercase;
+}
+.text h2{
+    color: #626262;
+    font-size: 30px;
+    font-weight: 400;
+}
+.text h3{
+    color: #626262;
+    font-size: 24px;
+    font-weight: 400;
+}
+.text p{
+    color: #626262;
+    font-size: 14px;
+    line-height:24px;  
+    font-weight: normal;    
+}
+.text span{
+    color: #626262;
+    font: italic 14px / 24px 'PlayfairDisplay';
+    width: 50.3%;
+}
+.itallic{
+    padding: 0 15px 0 15px;   
+}
+.text strong{
+    font-weight: bold;
+}
+.text .li1{
+    background: url(images/Ellisse-3.png) 0 20% no-repeat;
+    list-style-type: none;
+    padding-left: 20px;
+    color: #626262;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text .li1 li{
+    color: #b4ad9e;
+    font: 300 12px 'Ubuntu';
+    text-transform: uppercase;
+    margin: 15px 0 15px 0;
+}
+.text .p-about-me{
+    font-size: 12px;
+    font-weight: 400;
+}
+.banner {
+    margin-top: 50px;
+}
+.logotips {
+    margin-bottom: 50px;
+}
+.logotips img{
+ margin-right: 10px;   
+}
+.nav-footer{
+    float: left;
+    padding: 40px 0 0 70px;
+}
+.nav-footer a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    margin-right: 15px;
+}
+.follow {
+    float: right;
+    padding: 40px 70px 0 0;
+}
+.follow a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+.follow img{
+    margin-left: 15px;
+}
+
+.share {
+    height: 110px;
+    text-align: center;
+    clear: both;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+.share a{
+    color: #b4ad9e;
+    font: 300 13px / 24px 'Ubuntu';
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.share img{
+    padding-left: 10px;
+}
+
+
