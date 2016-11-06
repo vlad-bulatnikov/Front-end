@@ -44,21 +44,19 @@ table {
 
 /*____________________________________________________________________________________*/
 
-section,
-aside,
- {
+
+.section {
     margin: 100px 0 24px 0;
-}
-section {
     float: left;
     width: 55.1%;
     padding: 0;
     margin: 100px 0 24px 0;
 }
-aside {
-  float: right;
-  width: 30%;
-     margin: 100px 0 24px 0;
+.aside {
+    margin: 100px 0 24px 0;
+    float: right;
+    width: 30%;
+    margin: 100px 0 24px 0;
 }
 .footer {
     clear: both;
@@ -67,64 +65,72 @@ aside {
     width: 100%;
     margin-bottom: 0;
 }
-.header{
-    margin: 0 70px 0 70px;   
+.header { 
+    margin: 0 70px 0 70px;
     height: 150px;
 }
+.header__size {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .logo{
+    line-height: 150px;
     float: left; 
-    margin-top: 60px;
 }
 .navigation{
+    line-height: 150px;
     float: right;
     display: inline-block;
-    margin-top: 67px;   
 }
-.navigation ul{
+.navigation__ul {
     margin: 0;
 }
-.navigation li {
+.navigation__li {
   display: inline-block;
   margin-left:  120px;
   vertical-align: top;
 }
-.navigation li a{
+.navigation__a{
     font-size: 14px;
     color: #626262;
     text-decoration: none;
     text-transform: uppercase;
 }
 .main{
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
     margin: 13px 70px 0 70px;  
 }
-.image-in-selection{
+.section__image-in-selection{
     margin-bottom: 50px;
 }
 .text{
     font-family:'Playfair Display', serif;
 }
-.text h5{
+.text__h5{
     color: #b4ad9e;
     font: 300 14px 'Ubuntu';
     text-transform: uppercase;
 }
-.text h2{
+.text__h2{
     color: #626262;
     font-size: 30px;
     font-weight: 400;
 }
-.text h3{
+.text__h3{
     color: #626262;
     font-size: 24px;
     font-weight: 400;
 }
-.text p{
+.text__p{
     color: #626262;
     font-size: 14px;
     line-height:24px;  
     font-weight: normal;    
 }
-.text span{
+.text__span{
     color: #626262;
     font: italic 14px / 24px 'PlayfairDisplay';
     width: 50.3%;
@@ -132,11 +138,11 @@ aside {
 .itallic{
     padding: 0 15px 0 15px;   
 }
-.text strong{
+.text__strong{
     font-weight: bold;
 }
-.text .li1{
-    background: url(images/Ellisse-3.png) 0 20% no-repeat;
+.top-posts__li1{
+    background: url(../images/Ellisse-3.png) 0 20% no-repeat;
     list-style-type: none;
     padding-left: 20px;
     color: #626262;
@@ -144,13 +150,14 @@ aside {
     font-weight: 400;
 }
 
-.text .li1 li{
+.top-posts__li2{
     color: #b4ad9e;
     font: 300 12px 'Ubuntu';
     text-transform: uppercase;
     margin: 15px 0 15px 0;
 }
-.text .p-about-me{
+.text__p_about-me{
+    font-family:'Playfair Display', serif;
     font-size: 12px;
     font-weight: 400;
 }
@@ -160,14 +167,19 @@ aside {
 .logotips {
     margin-bottom: 50px;
 }
-.logotips img{
+.logotips__img{
  margin-right: 10px;   
+}
+.footer__size {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .nav-footer{
     float: left;
-    padding: 40px 0 0 70px;
+    padding: 40px 0 0 0;
 }
-.nav-footer a{
+.nav-footer__a{
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
@@ -176,15 +188,15 @@ aside {
 }
 .follow {
     float: right;
-    padding: 40px 70px 0 0;
+    padding: 40px 0 0 0;
 }
-.follow a{
+.follow__a{
     font-size: 14px;
     font-weight: 400;
     color: #000000;
     text-decoration: none;
 }
-.follow img{
+.follow__img{
     margin-left: 15px;
 }
 
@@ -195,13 +207,13 @@ aside {
     padding-top: 70px;
     padding-left: 100px;
 }
-.share a{
+.share__a{
     color: #b4ad9e;
     font: 300 13px / 24px 'Ubuntu';
     text-decoration: none;
     text-transform: uppercase;
 }
-.share img{
+.share__img{
     padding-left: 10px;
 }
 
